@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--自定义内容1：套件名称-->
+<suite name="果芽软件-接口测试-账户模块" verbose="1" preserve-order="true">
+  <!--自定义内容2：测试模块名称-->
+  <test name="查账户-充值-提现" preserve-order="true" enabled="true">
+    <classes>
+      <class name="com.guoyasoft.autotest6.user.AccountTest">
+        <methods>
+          <include name="getAccInfo"></include>
+          <include name="charge"></include>
+          <include name="withdraw"></include>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
