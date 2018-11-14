@@ -21,7 +21,7 @@
     </classes>
   </test>
   <!--自定义内容2：测试模块名称-->
-  <test name="冻结-解锁" preserve-order="true">
+  <test name="冻结-解锁" preserve-order="true" enabled="false">
     <classes>
       <!--自定义内容3：要执行的类-->
       <class name="com.guoyasoft.autotest6.user.UserTest">
